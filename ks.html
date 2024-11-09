@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saravanan</title>
+    <link rel="stylesheet" href="ks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section class="head">
+        <div>
+            <ul id="navbar">
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#cert">Certification</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="des">
+        <p class="p1">Student Of Computer Science And Engineering</p>
+        <h2>Hi There! I'm <span>Saravanan</span></h2>
+        <p>Sethu Institute Of Technology , Kariapatti </p>
+    </section>
+
+    <section id="but">
+        <button class="button-b1" id="b1">Linkedin</button>
+        <button class="button-b1" id="b2">Resume</button>
+</section>
+
+<section id="about" class="section">
+    <h2>About Me</h2>
+    
+    <div class="abt">
+        <!-- <img src="img/sara.jpg" alt="" width="300px" > -->
+
+        <p>I'm a Computer Science student with a passion for technology and software development. I enjoy solving problems and building applications that make a difference. My skills include web development, AI, and machine learning. I'm currently exploring new technologies and looking for internship opportunities to apply my knowledge in real-world projects.</p>
+    </div>
+</section>
+    <section id="skill">
+        <h2>Skills</h2>
+        <div class="skill-img">
+            <img src="img/html-5 (1).png" alt="" width="100px">            
+            <img src="img/css-3 (1).png" alt="" width="100px">
+            <img src="img/js.png" alt="" width="100px">
+            <img src="img/java (1).png" alt="" width="100px">
+            <img src="img/github.png" alt="" style="background: white;" width="100px">
+</div>
+    </section>
+
+    <section id="project">
+        <h2>Projects</h2>
+        <div class="pro-img">
+            <div class="pro-box">
+                <img src="img/Ecommerce.png" alt="" width="300">
+                <p>E-commerce Website - Build using Html,Css and JavaScript</p>
+            </div>
+            <div class="pro-box">
+                <img src="img/crud.png" alt="" width="300px" height="230px">
+                <p>Student Management System - Build using Java(swing) and sql(sqlite)</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="cert">
+        <h2>Certification</h2>
+
+      <div class="cert-img">
+        <div class="cert-box">     
+        <img src="img/codsoft.jpg" alt="">
+        <p>Successfully completed a 4-week 'Java Programming' internship at Codsoft.</p>
+        </div>
+
+        <div class="cert-box">     
+            <img src="img/native.jpg" alt="">
+            <p>Completed the web development online course by Nativeva.</p>
+
+        </div>
+
+        <div class="cert-box">
+    <img src="img/phonix.jpg" alt="">
+    <p>Successfully completed a 2-week 'web development' internship at Phoenix softech.</p>
+
+    </div>       
+    <div class="cert-box">
+         <img src="img/iot.jpg" alt="" >
+         <p>Successfully completed a 5-day 'IOT Project' internship at e-yantra(LSI).</p>
+
+    </div> 
+    <div class="cert-box">     
+           <img src="img/spring.jpg" alt="" >
+           <p>Completed the 'Spring5 Basics with SpringBoot' course by Infosys Springboard.</p>
+        </div> 
+    <div class="cert-box">
+        <img src="img/java-info.jpg" alt="" >
+        <p>Completed the 'Java-Programming' course by Infosys Springboard.</p>
+    </div> 
+
+      </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="ba57b9ee-55db-4eb6-8451-552cb8504748">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="button-b1">Send Message</button>
+        </form>
+    </section>
+    
+
+
+    <footer>
+        
+        <p>Copyright ©️ 2024 Saravanan</p>
+         <!-- <div class="con1">
+        <span><i class="fa-regular fa-envelope"></i>kssaravanan526@gmail</span>
+        <span><i class="fa-solid fa-phone"></i>8778109762</span> -->
+        <div class="link">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i></a> 
+        <i class="fa-brands fa-linkedin"></i>  </a>
+        </div>
+    <!-- </div> -->
+    </footer>
+
+        <script src="script.js">
+        // Simple form validation
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+   e.preventDefault();
+    
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+
+    if (name && email && message) {
+        alert("Thank you for reaching out, " + name + "!");
+        document.getElementById('contact-form').reset(); // Reset the form after submission
+    } else {
+        alert("Please fill in all fields.");
+    }
+});
+
+
+
+
+    </script>
+</body>
+</html>
