@@ -139,7 +139,7 @@ margin: 60px 0;
 }
 #about h2{
     text-align: center;
-    padding: 90px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     color: royalblue;
 }
 #about .abt{
@@ -153,7 +153,7 @@ padding: 0 100px;
 } */
 #skill h2{
     text-align: center;
-    padding: 90px 0px 30px 0px;
+    padding: 30px 0px 30px 0px;
     color: royalblue;
 }
 #skill .skill-img{
@@ -225,7 +225,7 @@ footer i:hover{
 }
 #cert h2{
     text-align: center;
-    padding: 90px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     color: royalblue;
 }
 #cert .cert-img .cert-box{
@@ -263,7 +263,7 @@ footer i:hover{
 }
 #project h2{
     text-align: center;
-    padding: 90px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
     color: royalblue;
 }
 #project .pro-img .pro-box{
