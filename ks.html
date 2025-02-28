@@ -9,9 +9,11 @@
 
 </head>
 <body>
-    <section class="head">
+    
+    <section id="head">
         <div>
             <ul id="navbar">
+
                 <li><a href="#about">About</a></li>
                 <li><a href="#project">Project</a></li>
                 <li><a href="#cert">Certification</a></li>
@@ -22,22 +24,67 @@
     </section>
 
     <section id="des">
+        <p class="p1">Student Of Computer Science And Engineering</p>
         <h2>Hi There! I'm <span>Saravanan</span></h2>
         <p>Sethu Institute Of Technology , Kariapatti </p>
     </section>
 
     <section id="but">
         <a href="https://www.linkedin.com/in/saravanan-k-s-72a521246/"><button class="button-b1" id="b1">Linkedin</button></a>
-        <button class="button-b1" id="b2">Resume</button>
+        <button class="button-b1" id="b2" onclick="window.open('Resume.pdf')">Resume</button>
+
+        <!-- <a href="resume/Resume.pdf"></a> -->
 </section>
 
-<section id="about" class="section">
+<section id="about" class="sec">
     <h2>About Me</h2>
-    
+    <div class="det">
     <div class="abt">
         <!-- <img src="img/sara.jpg" alt="" width="300px" > -->
+         <div class="det">
+<p> PERSONAL OBJECTIVE <br>
+    To Enhance and Develop my Educational and Professional Skills in
+    Stable and Dynamic workplace. <br><br>
+    CAREER OBJECTIVE <br>
+    To secure a challenging position in a reputable Institution, to expand
+    my learning’s, knowledge and skills and to work for the growth of
+    Institution</p>
+</div>
+<div class="edu">
+    <h2>Education Details</h2>
 
-        <p>I'm a Computer Science student with a passion for technology and software development. I enjoy solving problems and building applications that make a difference. My skills include web development, AI, and machine learning. I'm currently exploring new technologies and looking for internship opportunities to apply my knowledge in real-world projects.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Duration</th>
+                <th>Percentage / CGPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>BE, Computer Science and Engineering</td>
+                <td>Sethu Institute of Technology, Kariapatti</td>
+                <td>2022 - 2026</td>
+                <td>CGPA: 7.58% (5th Semester)</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary School Certificate</td>
+                <td>Setupati Higher Secondary School, Madurai</td>
+                <td>2021 - 2022</td>
+                <td>Percentage: 75.8%</td>
+            </tr>
+            <tr>
+                <td>Secondary School Leaving Certificate</td>
+                <td>Setupati Higher Secondary School, Madurai</td>
+                <td>2019 - 2020</td>
+                <td>Percentage: 74.8%</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
     </div>
 </section>
     <section id="skill">
@@ -55,7 +102,9 @@
         <h2>Projects</h2>
         <div class="pro-img">
             <div class="pro-box">
+                <div class="p1">
                 <a href="https://saravanan526.github.io/E-commerce/e.html"><img src="img/Ecommerce.png" alt="" width="300"></a>
+            </div>
                 <p>E-commerce Website - Build using Html,Css and JavaScript</p>
             </div>
             <div class="pro-box">
@@ -80,32 +129,12 @@
             <p>Completed the web development online course by Nativeva.</p>
 
         </div>
+    </div>
+<div class="b">   
+    <a href="cert.html"><button class="button-b1">See more</button>    
+    </a>
+</div>
 
-        <div class="cert-box">
-    <img src="img/phonix.jpg" alt="">
-    <p>Successfully completed a 2-week 'web development' internship at Phoenix softech.</p>
-
-    </div>       
-    <div class="cert-box">
-         <img src="img/iot.jpg" alt="" >
-         <p>Successfully completed a 5-day 'IOT Project' internship at e-yantra(LSI).</p>
-
-    </div> 
-           <div class="cert-box">
-        <img src="img/info ai.jpeg" alt="" >
-        <p>Successfully completed Artificial Intelligence Foundation Certification</p>
-
-   </div> 
-    <div class="cert-box">     
-           <img src="img/spring.jpg" alt="" >
-           <p>Completed the 'Spring5 Basics with SpringBoot' course by Infosys Springboard.</p>
-        </div> 
-    <div class="cert-box">
-        <img src="img/java-info.jpg" alt="" >
-        <p>Completed the 'Java-Programming' course by Infosys Springboard.</p>
-    </div> 
-
-      </div>
     </section>
 
     <section id="contact">
@@ -117,26 +146,35 @@
             <textarea id="message" name="message" placeholder="Your Message" required></textarea>
             <button type="submit" class="button-b1">Send Message</button>
         </form>
+        <footer>
+        
+            <p>Copyright ©️ 2024 Saravanan</p>
+            
+            <div class="link">
+                <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ohzlr6l ">   <i class="fa-brands fa-instagram"></i>
+                </a>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i> 
+            </div>
+        <!-- </div> -->
+        </footer>
     </section>
     
 
-
-    <footer>
-        
-        <p>Copyright ©️ 2024 Saravanan</p>
-         <!-- <div class="con1">
-        <span><i class="fa-regular fa-envelope"></i>kssaravanan526@gmail</span>
-        <span><i class="fa-solid fa-phone"></i>8778109762</span> -->
-        <div class="link">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i></a> 
-        <i class="fa-brands fa-linkedin"></i>  </a>
-        </div>
-    <!-- </div> -->
-    </footer>
-
         <script src="script.js">
+
+
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
         // Simple form validation
   document.getElementById('contact-form').addEventListener('submit', function (e) {
    e.preventDefault();
@@ -152,8 +190,6 @@
         alert("Please fill in all fields.");
     }
 });
-
-
 
 
     </script>
