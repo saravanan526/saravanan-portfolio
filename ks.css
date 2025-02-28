@@ -105,7 +105,8 @@ font-size: 46px;
 }
 #des p{
     color:whitesmoke;
-    padding:0 20px;
+    margin: 40px 0;
+
 }
 #des .p1{
     font-size: 16px;
