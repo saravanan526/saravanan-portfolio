@@ -143,14 +143,12 @@ h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
-/* Personal Details Styling */
 .det {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* About Text Styling */
 .abt {
     width: 100%;
     background:#010414;
@@ -333,7 +331,7 @@ footer i:hover{
     color: royalblue;
 }
 #project .pro-img .pro-box{
-    width: 350px;
+    width: 280px;
     text-align: center;
     padding: 10px 12px;
     border: 1px solid #cce7d0;
@@ -375,9 +373,7 @@ section {
     animation: fadeIn 1s ease-in-out;
 }
 @media (max-width:477px){
-    #project{
-        height: auto;
-    }
+
     #cert{
         height: auto;
     }
@@ -469,3 +465,4 @@ section {
                 font-size: 14px;
             }
 }
+
