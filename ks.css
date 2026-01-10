@@ -435,10 +435,11 @@ section {
             padding-right: 12px;
         }
         #skill img{
-            width:50px;            
+            width:50px; 
             }
     #skill{
 height:;
+        display:inline-block;
 }
            
             .sec {
@@ -468,6 +469,7 @@ height:;
                 font-size: 14px;
             }
 }
+
 
 
 
