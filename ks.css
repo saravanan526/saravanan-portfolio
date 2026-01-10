@@ -437,6 +437,9 @@ section {
         #skill img{
             width:80px;            
             }
+    #skill{
+height:auto;
+}
            
             .sec {
                 width: 95%;
@@ -465,6 +468,7 @@ section {
                 font-size: 14px;
             }
 }
+
 
 
 
