@@ -374,9 +374,7 @@ section {
 }
 @media (max-width:477px){
 #project{
-    height:auto;
-    position:relative;
-    bottom:80px;
+  margin-top:50px;
 }
     #cert{
         height: auto;
@@ -437,9 +435,7 @@ section {
             padding-right: 12px;
         }
         #skill img{
-            margin: 10px;
-                padding: 10px;
-            
+            width:80px;            
             }
            
             .sec {
@@ -469,6 +465,7 @@ section {
                 font-size: 14px;
             }
 }
+
 
 
 
