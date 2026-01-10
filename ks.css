@@ -374,7 +374,7 @@ section {
 }
 @media (max-width:477px){
 #project{
-  margin-top:50px;
+  margin-bottom:80px;
 }
     #cert{
         height: auto;
@@ -465,6 +465,7 @@ section {
                 font-size: 14px;
             }
 }
+
 
 
 
