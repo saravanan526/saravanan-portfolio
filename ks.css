@@ -373,7 +373,8 @@ section {
     animation: fadeIn 1s ease-in-out;
 }
 @media (max-width:477px){
-
+#project{
+    height:auto;
     #cert{
         height: auto;
     }
@@ -465,4 +466,5 @@ section {
                 font-size: 14px;
             }
 }
+
 
